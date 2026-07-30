@@ -1,7 +1,13 @@
 aid: looksharp
 name: LookSharp
-description: LookSharp is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: LookSharp (formerly InternMatch) was the largest internship and entry-level
+  jobs marketplace dedicated entirely to US college students and new grads, connecting
+  a marketplace of job-seeking students with employers who used its enterprise recruiting
+  products to build employment brand and streamline campus hiring. Founded in 2009
+  by Andrew Maguire and Nathan Parcells and backed by 500 Global, LookSharp was acquired
+  by WayUp in 2017; its internmatch.com domain now redirects to wayup.com and the
+  brand no longer operates independently. This profile documents a defunct/acquired
+  company with no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/looksharp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,34 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: WayUp
+x-acquired-year: 2017
+x-successor-website: https://www.wayup.com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/999631?v=4
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Jobs
+- Recruiting
+- Internships
+- Careers
+- Education
+- Marketplace
+- Human Resources
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,12 @@ maintainers:
 common:
 - type: Website
   url: https://internmatch.com
+- type: GitHubOrganization
+  url: https://github.com/internmatch
+- type: DomainSecurity
+  url: security/looksharp-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
