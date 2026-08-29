@@ -9,6 +9,9 @@ description: LookSharp (formerly InternMatch) was the largest internship and ent
   brand no longer operates independently. This profile documents a defunct/acquired
   company with no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/looksharp/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile documents a defunct/acquired company with no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
