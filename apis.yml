@@ -44,6 +44,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://internmatch.com', status: 301, note: 'declared website redirects to https://www.wayup.com/ — a different registrable domain (internmatch.com -> wayup.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://avatars.githubusercontent.com/u/999631?v=4
 specificationVersion: '0.23'
 created: '2026-07-17'
